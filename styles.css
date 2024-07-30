@@ -22,24 +22,25 @@ pre {
   overflow-wrap: break-word; /* Breaks long words at the end of the line */
   font-family: 'VT323', monospace; /* Consistent terminal font */
   color: #00ff00; /* Terminal-like green color */
-  font-size: 12px; /* Default font size, reasonable balance */
+  font-size: 16px; /* Larger default font size */
 }
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 600px) {
   pre {
-    font-size: 8px; /* Smaller font size for small devices */
+    font-size: 14px; /* Slightly smaller but still readable on smaller screens */
   }
 }
 
 #terminal {
   text-align: center; /* Center the text inside */
   position: relative; /* Maintain relative positioning */
-  width: 95%; /* Full width adjusted for padding */
-  max-width: 900px; /* Limit maximum width */
-  height: 80%; /* Height relative to viewport */
+  width: 90%; /* Adjusted width */
+  max-width: 1000px; /* Increased max-width for larger screens */
+  height: auto; /* Auto height for flexibility */
+  min-height: 400px; /* Minimum height for small screens */
   padding: 20px; /* Padding inside the terminal */
-  margin: auto; /* Auto margins for automatic centering */
+  margin: 20px auto; /* Center horizontally with margin */
   background-color: #000; /* Background color */
   color: #00ff00; /* Text color */
   border: 2px solid #00ff00; /* Green border */
@@ -59,11 +60,10 @@ pre {
 @media screen and (max-width: 480px) {
   #terminal {
     padding: 10px; /* Reduced padding for more space */
-    height: auto; /* Auto height for flexibility */
     margin-top: 5%; /* Adjusted top margin */
   }
 
   #terminal pre, #terminal h1, #terminal h2 {
-    font-size: 0.8em; /* Larger font than previous for readability */
+    font-size: 1em; /* Larger font for readability */
   }
 }
