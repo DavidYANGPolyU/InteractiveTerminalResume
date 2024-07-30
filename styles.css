@@ -22,13 +22,13 @@ pre {
   overflow-wrap: break-word; /* Breaks long words at the end of the line */
   font-family: 'VT323', monospace; /* Consistent terminal font */
   color: #00ff00; /* Terminal-like green color */
-  font-size: 16px; /* Larger default font size */
+  font-size: 20px; /* Larger default font size */
 }
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 600px) {
   pre {
-    font-size: 14px; /* Slightly smaller but still readable on smaller screens */
+    font-size: 18px; /* Slightly smaller but still readable on smaller screens */
   }
 }
 
@@ -53,7 +53,7 @@ pre {
 }
 
 #terminal h1, #terminal h2 {
-  font-size: 1.5em; /* Slightly larger font for headings */
+  font-size: 2em; /* Larger font for headings */
   margin-bottom: 0.5em; /* Space below headings */
 }
 
@@ -64,6 +64,6 @@ pre {
   }
 
   #terminal pre, #terminal h1, #terminal h2 {
-    font-size: 1em; /* Larger font for readability */
+    font-size: 1.5em; /* Larger font for readability */
   }
 }
