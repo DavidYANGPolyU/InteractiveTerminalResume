@@ -22,7 +22,7 @@ pre {
   overflow-wrap: break-word; /* Breaks long words at the end of the line */
   font-family: 'VT323', monospace; /* Consistent terminal font */
   color: #00ff00; /* Terminal-like green color */
-  font-size: 20px; /* Default font size, reasonable balance */
+  font-size: 12px; /* Default font size, reasonable balance */
 }
 
 /* Responsive adjustments for smaller screens */
